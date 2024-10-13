@@ -1,0 +1,30 @@
+header {
+  border-bottom: 1px solid var(--border-down);
+
+  .header-container {
+    padding: var(--container-padding-header);
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter, sans-serif;
+    align-items: center;
+    width: 100%;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  a {
+    color: black;
+    list-style-type: none;
+  }
+}
+.header ul {
+  display: flex;
+  font-size: 16px;
+  gap: 24px;
+  list-style-type: none;
+}

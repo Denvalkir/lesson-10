@@ -1,0 +1,200 @@
+/*  Index page - css */
+
+.main-container {
+  padding: var(--container-padding-main);
+  flex-direction: column;
+  font-family: Inter, sans-serif;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-post {
+  width: 130%;
+  margin-left: -15%;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.index-headpage-post {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border-bottom: 1px solid var(--border-down);
+  padding-bottom: 80px;
+
+  .title-index-headpage-post {
+    text-decoration: none;
+    opacity: 0.8;
+
+    a {
+      padding-bottom: 4px;
+      border-bottom: 1px solid #dcdfe4;
+      color: black;
+    }
+  }
+  .description-index-headpage-post {
+    font-size: 40px;
+  }
+}
+
+.index-other-post {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-bottom: 1px solid var(--border-down);
+  padding: 80px 0;
+
+  .title-description-post {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .title-post {
+    font-weight: 500;
+  }
+
+  .description-post {
+    opacity: 0.7;
+  }
+}
+
+.icon-down-post {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+
+  a {
+    border: 1px solid #dcdfe4;
+    border-radius: 20px;
+    padding: 8px 12px;
+    color: #1a1a25a6;
+    font-weight: 500;
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
+  }
+
+  img {
+    width: 12px;
+    opacity: 0.5;
+  }
+}
+
+.icon-and-date-down-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    color: #71717a;
+    font-size: 14px;
+  }
+}
+
+/*  About page - css */
+
+/* About page - About me & my blog */
+.about-headpage-post {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-bottom: 80px;
+
+  .title-about-headpage-post {
+    font-size: 40px;
+  }
+}
+
+/* Humble beginnings... */
+
+.about-post {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  line-height: 30px;
+  padding-bottom: 80px;
+
+  .title-about-post {
+    font-size: 24px;
+  }
+
+  .description-about-post {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    opacity: 0.9;
+  }
+}
+
+.future-goals-title-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .future-goals-title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 24px;
+  }
+
+  .future-goals-description {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    opacity: 0.9;
+  }
+}
+
+.ul-list {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-about-post {
+  width: 130%;
+  margin-left: -15%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+/* Info post: Monthly visits, Daily post reads, Indexed pages, Average SERP */
+
+.info-post {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.monthly-visits,
+.daily-post-reads,
+.indexed-pages,
+.average-serp {
+  border: 1px solid #dcdfe4;
+  padding: 24px;
+  height: 200px;
+  width: 310px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  h4 {
+    opacity: 0.8;
+  }
+
+  p {
+    font-size: 40px;
+  }
+}
+
+.monthly-visits-and-daily-post-reads,
+.indexed-pages-and-average-serp {
+  display: flex;
+  justify-content: space-between;
+}
